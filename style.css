@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    display: flex;
+    font-family: sans-serif
+}
+
+/* side bar */
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(204, 201, 201);
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.fa-instagram{
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    margin-left: 2px;
+}
+
+#sidebar i:not(.fa-instagram){
+    margin-bottom: 1.5em;
+}
+
+#sidebar ion-icon{
+    margin-bottom: 1.5em;
+}
+
+#sidebar img{
+    height: 2.5em;
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-bottom: 2em;
+}
+
+/* main content */
+
+#main-content{
+  width: 100%;  
+  padding-top: 2em;  
+  padding-left: 7em;
+  padding-right: none;
+  background-color: whitesmoke;
+  display: flex; 
+}
+
+#status{
+    border: 1px solid rgb(204, 201, 201);
+    width: 35em;
+    height: 7em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+#status a > img{
+    height: 5em;
+    position: relative;
+    top: 1.2em;
+}
+
+/* posts */
+
+.single-post{
+    border: 1px solid rgb(204, 201, 201);
+    background-color: white;
+    padding: 0.8em 0;
+    margin-top: 1em;
+    border-radius: 10px;
+    width: 36.2em;
+}
+
+.main-img{
+    width: 36em;
+}
+
+.name{
+    display: flex;
+}
+
+.tiny-img{
+    height: 3em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+
+.fa-ellipsis{
+    position: relative;
+    left: 23.5em;
+    top: 1em;
+}
+
+.odd{
+    margin-left: -2em;
+}
+
+.actions{
+    margin: 1em;
+}
+
+.actions i{
+    margin-right: 0.5em;
+}
+
+.fa-bookmark{
+    position: relative;
+    left: 11.4em;
+}
+
+.end-div{
+    margin-left: 1.2em;
+}
+
+.likes{
+    font-weight: 600;
+}
+
+.author{
+    font-weight: 600;
+}
+
+.more{
+    color: rgb(170, 167, 167);
+}
+
+.line{
+    background-color: rgb(219, 217, 217);
+    height: 1px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.comment{
+    display: flex;
+}
+
+.fa-face-smile{
+    position: relative;
+    top: 0.25em;
+    margin-right: 0.5em;
+}
+
+input{
+    border: none;
+}
+
+.post{
+    position: relative;
+    left: 18em;
+    color: rgb(173, 224, 224);
+    font-weight: 600;
+}
+
+::placeholder{
+    font-size: 17px;
+}
+
+/* suggestions */
+
+#suggestions{
+    margin-top: 1.1em;
+    margin-left: 2.7em;
+}
+
+#suggestions img:not(.profile-pic){
+    height: 3em;
+    position: relative;
+    top: 1.3em;
+    margin-right: 1em;
+}
+
+.profile-pic{
+    height: 5em;
+    margin-right: 1em;
+}
+
+#account{
+    display: flex;
+}
+
+#for-you{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+}
+
+#info{
+    display: flex;
+}
+
+#user1{
+    font-weight: 600;
+    font-size: large;
+}
+
+#user2{
+    position: relative;
+    top: -10px;
+    color: grey;
+}
+
+.suggest{
+    color: gray
+}
+
+#see-all{
+    position: relative;
+    right: 7em;
+}
+
+.switch{
+    color: rgb(41, 159, 238);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.first{
+    position: relative;
+    left: 6.7em;
+    top: 1.4em;
+}
+
+.one{
+    position: relative;
+    left: 4.5em;
+    top: 1.3em;
+}
+
+.two{
+    position: relative;
+    left: 7em;
+    top: 1.3em;
+}
+.three{
+    position: relative;
+    left: 3em;
+    top: 1.3em;
+}
+.four{
+    position: relative;
+    left: 2.3em;
+    top: 1.3em;
+}
+
+ul{
+    display: flex;
+    color: rgb(185, 184, 184);
+    margin-left: -3em;
+    font-size:medium;
+    flex-wrap: wrap;
+}
+
+li{
+    margin-right: 1.2rem;
+}
+
+#about{
+    list-style-type: none;
+}
+
+#suggestion1{
+    margin-top: -1.5em;
+}
+
+#suggestion2{
+    margin-top: -1.5em;
+}
+
+#suggestion3{
+    margin-top: -1.5em;
+}
+
+#suggestion4{
+    margin-top: -1.5em;
+}
+
+#insta{
+    color: rgb(185, 184, 184);
+    font-size: 15px;
+    margin-top: 1.5rem;
+}
